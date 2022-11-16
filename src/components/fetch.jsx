@@ -1,6 +1,6 @@
 import axios from 'axios';
 const BASE_URL = 'https://api.themoviedb.org/3';
-const MY_KEY = '14bbbaf17264a85a2229a09d03b6c904';
+const MY_KEY = 'b38b0907dd20d39e91235c8171bbf1c5';
 
 const fetchTrending = async () => {
   const response = await axios.get(
@@ -36,4 +36,5 @@ const fetchReviews = async ({ id }) => {
 
   return response.data.results;
 };
+
 export { fetchTrending, fetchMovies, fetchMoviesOne, fetchCast, fetchReviews };

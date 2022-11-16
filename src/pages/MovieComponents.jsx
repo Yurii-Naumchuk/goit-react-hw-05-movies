@@ -16,7 +16,7 @@ const MovieComponents = ({ movies }) => {
         {poster_path ? (
           <ImgPoster
             src={`${image_URL}${poster_path}`}
-            alt={DataTransferItemList}
+            alt={title}
           />
         ) : (
           <ImgPoster src={img} alt="no img" />

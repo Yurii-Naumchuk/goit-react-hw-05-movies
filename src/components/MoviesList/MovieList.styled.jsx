@@ -7,23 +7,25 @@ export const ThumbPoster = styled.ul`
   grid-gap: 16px;
   margin-top: 40px;
   padding-bottom: 24px;
+  list-style: none;
 `;
 export const PosterList = styled.li`
   box-shadow: 0 4px 3px -4px lightblue;
   border-radius: 4px;
+  border-radius: 5px;
   transition: all 0.2s ease-in-out;
   &:hover,
   &:focus {
     scale: 1.03;
-  }
+      }
 `;
 
 export const Title = styled.h2`
   font-size: 16px;
-  color: #105109;
+  color: #150951;
   ${PosterList}:hover &,
   ${PosterList}:focus & {
-    color: #4f0590;
+    color: #900546;
   }
 `;
 export const PosterMovies = styled.img`
