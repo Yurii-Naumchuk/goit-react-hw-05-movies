@@ -6,6 +6,7 @@ import MovieComponents from './MovieComponents';
 import PatchToInfoFilms from '../components/pathToInfo/PatchToInfoFilms';
 import Navbar from 'components/Navbar/Navbar';
 
+
 export default function MoviesDetails() {
   const [movies, setMovies] = useState(null);
   const [error, setError] = useState(null);

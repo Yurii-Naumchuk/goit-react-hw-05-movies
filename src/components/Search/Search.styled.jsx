@@ -12,11 +12,13 @@ export const Input = styled.input`
   height: 20px;
 `;
 export const Button = styled.button`
-  padding: 4px 10px;
+  padding: 5px 10px;
   margin-left: 5px;
+  border-radius: 5px;
+  border: 2px, solid;
   cursor: pointer;
   &:hover {
-    color: #4cd82d;
-    background-color: #c7ebfa;
+    color: #081f03;
+    background-color: #c4e5f3;
   }
 `;

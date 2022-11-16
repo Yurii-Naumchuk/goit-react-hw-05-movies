@@ -14,10 +14,11 @@ export const PosterList = styled.li`
   border-radius: 4px;
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
+  background-color: #d9f3f3;
   &:hover,
   &:focus {
     scale: 1.03;
-      }
+  }
 `;
 
 export const Title = styled.h2`
@@ -25,7 +26,7 @@ export const Title = styled.h2`
   color: #150951;
   ${PosterList}:hover &,
   ${PosterList}:focus & {
-    color: #900546;
+    color: #c7140e;
   }
 `;
 export const PosterMovies = styled.img`
