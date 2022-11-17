@@ -1,4 +1,4 @@
-import img from '../no_img.jpg';
+import img from '../assets/no_img.jpg';
 import { Thumb, ThumbText, ImgPoster } from './MovieComponents.styled';
 
 const MovieComponents = ({ movies }) => {
@@ -14,10 +14,7 @@ const MovieComponents = ({ movies }) => {
     <Thumb>
       <div>
         {poster_path ? (
-          <ImgPoster
-            src={`${image_URL}${poster_path}`}
-            alt={title}
-          />
+          <ImgPoster src={`${image_URL}${poster_path}`} alt={title} />
         ) : (
           <ImgPoster src={img} alt="no img" />
         )}

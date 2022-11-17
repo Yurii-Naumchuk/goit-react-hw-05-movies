@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Loader } from '../Loader/Loader';
-import { fetchReviews } from 'components/fetch';
+import { fetchReviews } from '../../services/api';
 import { ReviewsMoviesList } from './ReviewsMoviesList';
 
 export default function ReviewsMovies() {

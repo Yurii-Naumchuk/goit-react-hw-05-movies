@@ -1,4 +1,4 @@
-import img from '../../no_img.jpg';
+import img from '../../assets/no_img.jpg';
 import { CastUl, Img } from './CastMoviesList.styled';
 const image_URL = 'https://image.tmdb.org/t/p/w500';
 

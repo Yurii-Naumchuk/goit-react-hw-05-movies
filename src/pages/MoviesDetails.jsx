@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
-import { fetchMoviesOne } from '../components/fetch';
+import { fetchMoviesOne } from '../services/api';
 import { Loader } from '../components/Loader/Loader';
 import MovieComponents from './MovieComponents';
 import PatchToInfoFilms from '../components/pathToInfo/PatchToInfoFilms';

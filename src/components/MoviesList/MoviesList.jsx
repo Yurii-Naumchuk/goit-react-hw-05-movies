@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../no_img.jpg';
+import img from '../../assets/no_img.jpg';
 import { Link, useLocation } from 'react-router-dom';
 import {  Title, ThumbPoster, PosterList, PosterMovies, } from './MovieList.styled';
 

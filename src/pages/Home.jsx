@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 
-import { fetchTrending } from 'components/fetch';
+import { fetchTrending } from '../services/api';
 import { Loader } from '../components/Loader/Loader';
 import MoviesList from 'components/MoviesList/MoviesList';
 import Navbar from 'components/Navbar/Navbar';
